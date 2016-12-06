@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/***********/
+@media screen and (min-width: 300px) { 
+body {
+	margin:0;
+}
+.banner {
+	height:100px;
+	background-color: #ccffff; 
+	padding-top:3%;
+}
+.main-section {
+	height: 600px;
+	background-color: #99ffff;
+}
+li {
+	display: inline;
+	padding-left: 10%;
+	font-size:10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.main-text, span {
+	margin: 0px;
+	padding-top:20px;
+	font-size: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+/************/
+@media screen and (min-width: 500px) { 
+body {
+	margin:0;
+}
+
+.banner {
+	height:100px;
+	background-color: #ccffff; 
+	padding-top:3%;
+
+}
+.main-section {
+	height: 600px;
+	background-color: #99ffff;
+}
+
+li {
+	display: inline;
+	padding-left: 20%;
+	font-size:20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.main-text, span {
+	margin: 0px;
+	padding-top:20px;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+/***********/
+@media screen and (min-width: 700px) { 
+body {
+	margin:0;
+}
+
+.banner {
+	height:100px;
+	background-color: #ccffff; 
+	padding-top:3%;
+
+}
+.main-section {
+	height: 600px;
+	background-color: #99ffff;
+}
+
+li {
+	display: inline;
+	padding-left: 20%;
+	font-size:30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.main-text, span {
+	margin: 0px;
+	padding-top:20px;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+}

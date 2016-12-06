@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+
+var lane1= ['car_a1','car_a2','car_a3','car_a4','car_a5','car_a6']; 
+var lane2 = ['car_b1','car_b2','car_b3','car_b4','car_b5','car_b6'];
+var mergeLanes = [];
+var counter1 = 0;
+var counter2 = 0;
+
+
+for (var i=0; i < (lane1.length)*2; i++) {
+
+	if (i===0 || i%2===0){
+
+		for ( var m = counter1; m < lane1.length; m++) {
+
+			mergeLanes[i] = lane1[m];
+			counter1++;
+			break;
+		}
+	}
+
+	else {
+
+		for (var j= counter2; j < lane2.length; j++) {
+
+			mergeLanes[i] = lane2[j];
+			counter2++;	
+			break;
+		}
+}
+}
+	document.write(mergeLanes);
+
+</script>
+</head>
+<body>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+   var summation = 0;
+   function sum() {
+   	for (var i=0; i < arguments.length; i++) {
+   		summation += arguments[i];
+   	}
+   	return summation;
+   }
+
+   sum(1, 4, 7);
+   
+   document.write(summation);
+   </script>
+ </head>
+ <body>
+ </body>
+</html>

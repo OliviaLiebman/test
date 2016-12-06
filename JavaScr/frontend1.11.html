@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+   var numOne = Number(prompt("Please enter your first number:"));
+   var numTwo = Number(prompt("Please enter your second number:"));
+   var numThree = Number(prompt("Please enter your third number:"));
+
+   if (numOne > numTwo && numTwo > numThree) {
+   	window.alert("The order of your numbers of largest to smallest is:" + numOne + "" + numTwo + "" + numThree);
+   }
+   else if (numOne > numThree && numThree > numTwo) {
+   	window.alert("The order of your numbers of largest to smallest is:" + numOne + "" + numThree + "" + numTwo);
+   }
+   else if (numTwo > numOne&& numOne > numThree) {
+   	window.alert("The order of your numbers of largest to smallest is:" + numTwo + "" + numOne + "" + numThree);
+   }
+   else if (numTwo > numThree && numThree > numOne) {
+   	window.alert("The order of your numbers of largest to smallest is:" + numTwo + "" + numThree + "" + numTwo);
+   }
+   else if (numThree > numOne && numOne > numTwo) {
+   	window.alert("The order of your numbers of largest to smallest is:" + numThree + "" + numOne + "" + numTwo);
+   }
+   else {
+   	   	window.alert("The order of your numbers of largest to smallest is:" + numThree + "" + numTwo + "" + numOne);
+   }
+   </script>
+ </head>
+ <body>
+
+ </body>
+</html>

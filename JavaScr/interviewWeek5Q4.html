@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+
+var inputNum = parseInt(prompt("Please enter the index for which Fibonnaci number you would like printed:"));
+var outputVal = 0;
+//var fibArr = [];
+
+function fibonnaci(inputNum) {
+
+	if (inputNum <= 1) {
+		return inputNum;
+	}
+	return fibonnaci(inputNum-1) + fibonnaci(inputNum-2);
+}
+
+	document.write(fibonnaci(inputNum));
+
+
+ </script>
+ </head>
+ <body>
+ </body>
+</html>

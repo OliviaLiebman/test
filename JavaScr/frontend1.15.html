@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+<script>
+
+   var userInput = prompt("Please enter a word:");
+
+function palindrome(userInput) {
+	var parsedArr = userInput.split("");
+	var reversedArr = parsedArr.reverse();
+
+
+	if (parsedArr === reversedArr) {
+		window.alert("Your string is a palindrome!");
+	}
+	else {
+		window.alert("Your string is NOT a palindrome!");
+	}
+}
+palindrome(userInput);
+
+</script>
+ </head>
+ <body>
+
+ </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+
+   var arr = [1 ,2 ,3, null, 4, null, 5, null, 6];
+   var counter =0;
+for (var i=0; i < arr.length; i++) {
+
+	if (arr[i] === null) {
+	counter ++;
+	arr.splice(i, 1);
+	}
+}
+document.write(arr + " The space you saved is: " + counter);
+
+   </script>
+ </head>
+ <body>
+ </body>
+</html>

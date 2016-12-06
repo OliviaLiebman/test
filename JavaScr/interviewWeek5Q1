@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+   var newArr = [3, 4, 2, 6];
+   var product = 1;
+   var productArr = [];
+   for (var i=0; i < newArr.length; i++) {
+   		for (var j=0; j < newArr.length; j++) {
+   			if (i != j)
+   				product = product*newArr[j]
+   		}
+   		productArr[i] = product;
+   }
+   productArr.toString();
+   document.write(productArr);
+
+   </script>
+ </head>
+ <body>
+ </body>
+</html>

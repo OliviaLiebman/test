@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+   var newArr = [1, 4, 2, 6, 3];
+
+   for (var i=0; i < newArr.length; i++) {
+   	
+   }
+   </script>
+ </head>
+ <body>
+ </body>
+</html>

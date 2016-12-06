@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>title</title>
+   <script>
+    var randomNum = Math.floor((Math.random() * 10) + 1);
+
+    var userNum = prompt("Please guess a number between 1 and 10");
+    var userInt = parseInt(userNum);
+
+    if (randomNum === userInt) {
+      window.alert("GREAT SUCCESS!");
+    }
+    else {
+      window.alert("FAIL");
+    }
+   </script>
+ </head>
+ <body>
+ </body>
+</html>
